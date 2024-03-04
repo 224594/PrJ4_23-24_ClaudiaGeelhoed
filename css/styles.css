@@ -27,16 +27,10 @@ body {
 
 /* Styles for lists in the document */
 
-.biography-details li::before, .skill-list li::before {
-	content: ">";
-	font-weight: 800;
-	display: inline-block;
-	width: 1em;
-	margin-left: -1em;
-}
-
 .biography-details li::before {
-	color: #EE7623;
+  content: '\2665'; /* Unicode voor het hartje */
+  color: #C50003; /* Kleur van het hartje, je kunt dit aanpassen naar jouw voorkeur */
+  margin-right: 40px; /* Ruimte tussen het hartje en de tekst */
 }
 
 .biography-details li, .skill-list li {

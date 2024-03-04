@@ -1,0 +1,41 @@
+@charset "utf-8";
+.myfont{
+    font-family: "lady-dodo", sans-serif;
+    background-color: antiquewhite;
+    color: #A828CD;
+    text-shadow: 0px 0px #950002;
+    font-size: large;
+}
+
+
+.mybox{
+    width: 300px;
+    height: 300px;
+    color: #111111;
+    background-color: #66B681;
+    border: thick double #19D294;
+    margin-bottom: 10px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 9px;
+}
+
+#test{
+    color: #141413;
+    font-family: "megazoid", sans-serif;
+    font-style: normal;
+    font-size: small;
+    font-weight: lighter;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li::before {
+  content: '\2665'; /* Unicode voor het hartje */
+  color: palevioletred; /* Kleur van het hartje, je kunt dit aanpassen naar jouw voorkeur */
+  margin-right: 20px; /* Ruimte tussen het hartje en de tekst */
+}
