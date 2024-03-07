@@ -64,9 +64,10 @@ font-style: normal;
 
 .font2 {
     font-family: "balzano-std", sans-serif;
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
     text-align: left;
+    font-size: 23px;
 }
 
 .d-flex {color: #82369B}
