@@ -14,15 +14,15 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #FFDEF9;
+    background-image: url("../images/background2.jpg")
 }
 
 .resume-main {
-	background-color: #B55F97;
+	background-color: #f9f4ee;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #d2dea0;
 }
 
 /* Styles for lists in the document */
@@ -34,7 +34,12 @@ body {
 }
 
 .biography-details li, .skill-list li {
-	padding-left: 1em;
+    font-family: "balzano-std", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+    padding-left: 1em;
+    font-size: 22px;
 }
 
 /* Styles for contact icons */
@@ -42,4 +47,24 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.fw-bolder {
+	font-family: "lady-dodo", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.fst-italic {
+    font-family: "lady-dodo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+}
+
+.font2 {
+    font-family: "balzano-std", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
 }
