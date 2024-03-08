@@ -91,4 +91,8 @@ font-style: normal;
     text-align: left;
     font-size: 20px; }
 
-
+.biography-contents { font-family: "balzano-std", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    font-size: 31px; }
