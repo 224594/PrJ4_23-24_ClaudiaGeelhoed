@@ -5,11 +5,6 @@
 
 /* Styles for the body */
 
-body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
-	background-color: #f8f8fc;
-}
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
@@ -71,3 +66,29 @@ font-style: normal;
 }
 
 .d-flex {color: #82369B}
+
+.font3 {font-family: "balzano-std", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    font-size: 31px; }
+
+.font4 { font-family: "balzano-std", sans-serif;
+    font-weight:bold;
+    font-style: normal;
+    text-align: left;
+    font-size: 28px; }
+
+.language-name { font-family: "balzano-std", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    font-size: 29px; }
+
+.position-absolute { font-family: "balzano-std", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    font-size: 20px; }
+
+
